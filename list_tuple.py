@@ -1,6 +1,6 @@
-students=input("Enter student name:").split()
-marks=tuple(map(int,input("enter marks").split()))
-dept=list(input("enter dept:").split())
+students=input("Enter students name:").split()
+marks=tuple(map(int,input("enter marks for each student:").split()))
+dept=list(input("enter dept for each student:").split())
 def check_grade (mark):
     if mark>50:
         return "pass"
