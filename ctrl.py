@@ -5,11 +5,11 @@ def check_grade(mark):
     else:
         return "fail"
     
-# i=0
-# while i<len(marks):
-#     res=check_grade(marks[i])
-#     print("Student",i+1,res)
-#     i=i+1
+i=0
+while i<len(marks):
+    res=check_grade(marks[i])
+    print("Student",i+1,res)
+    i=i+1
 
 for i in range(len(marks)):
     res=check_grade(marks[i])
