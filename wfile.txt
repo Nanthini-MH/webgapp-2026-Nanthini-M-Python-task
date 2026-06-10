@@ -1,0 +1,1 @@
+This is write fileThis is file concept. Write the content into the file in write mode
